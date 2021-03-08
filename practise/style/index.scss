@@ -1,0 +1,17 @@
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: 100%/12 * $i;
+    }
+}
+
+@for $i from 1 through 12 {
+    .fizzBuzz-#{$i} {
+        &::after {
+            @if $i % 2 == 0 {
+                content: "Chetnoe";
+            } @else {
+                content: "Ne chetnoe";
+            }
+        }
+    }
+}

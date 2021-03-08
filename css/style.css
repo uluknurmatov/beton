@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 250px;
+    height: 64px;
+    background-color: white;
+    border-radius: 3px;
+}
+.header {
+    padding-top: 57px;
+    background: url("../img/Rectangle\ 5.png");
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar__item:not(:last-child) {
+    margin-right: 30px;
+}
+.header__wrapper {
+    display: flex;
+}
+p.first {
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+span {
+    font-size: 70px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+}
+p.second {
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+button {
+    width: 250px;
+    height: 45px;
+}

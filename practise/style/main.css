@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url("../img/Rectangle 5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.hero-header .tel a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-header .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-header .nav__item {
+  padding: 5px 10px;
+}
+
+.hero-header .nav__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-body .hero__right img {
+  width: 100%;
+}
+
+.order-btn {
+  background-color: #3d9be9;
+  border: none;
+  color: #fff;
+  padding: 12px 45px;
+  font-size: 16px;
+}
+
+.blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block {
+  width: 300px;
+  height: 200px;
+  background: #fefefe;
+  border-radius: 6px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  padding: 30px;
+}
+
+p.blocks {
+  font-size: 12px;
+  padding-left: 45px;
+}
+
+.middle {
+  margin-top: 140px;
+  background: url("../img/Rectangle 6.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.middle__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.zakaz {
+  background: url("../img/Rectangle 46.png");
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+p.zakaz {
+  text-align: center;
+  font-size: 13px;
+}
+
+.zakaz__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img.zakaz__img {
+  width: 535px;
+  height: 440px;
+}
+
+.zakaz__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.zakaz__text input {
+  height: 50px;
+  border: none;
+  background-color: inherit;
+  border-bottom: solid 1px black;
+}
+
+.zakaz-btn {
+  background-color: #3d9be9;
+  border: none;
+  color: #fff;
+  padding: 12px 45px;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 65px;
+  width: 250px;
+}
+
+h3.companion {
+  padding-bottom: 85px;
+}
+
+input.galka {
+  height: 12px;
+}
+
+.companion__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+img.companion-img {
+  width: 315px;
+}
+
+iframe {
+  height: 450px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #333333;
+  color: white;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-btn {
+  background-color: #3d9be9;
+  border: none;
+  color: #fff;
+  padding: 12px 45px;
+  font-size: 16px;
+  height: 40px;
+}
+/*# sourceMappingURL=main.css.map */

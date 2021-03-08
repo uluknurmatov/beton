@@ -1,0 +1,96 @@
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.fizzBuzz-1::after {
+  content: "Ne chetnoe";
+}
+
+.fizzBuzz-2::after {
+  content: "Chetnoe";
+}
+
+.fizzBuzz-3::after {
+  content: "Ne chetnoe";
+}
+
+.fizzBuzz-4::after {
+  content: "Chetnoe";
+}
+
+.fizzBuzz-5::after {
+  content: "Ne chetnoe";
+}
+
+.fizzBuzz-6::after {
+  content: "Chetnoe";
+}
+
+.fizzBuzz-7::after {
+  content: "Ne chetnoe";
+}
+
+.fizzBuzz-8::after {
+  content: "Chetnoe";
+}
+
+.fizzBuzz-9::after {
+  content: "Ne chetnoe";
+}
+
+.fizzBuzz-10::after {
+  content: "Chetnoe";
+}
+
+.fizzBuzz-11::after {
+  content: "Ne chetnoe";
+}
+
+.fizzBuzz-12::after {
+  content: "Chetnoe";
+}
+/*# sourceMappingURL=index.css.map */
